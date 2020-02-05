@@ -1,0 +1,11 @@
+.player-turn-panel {
+  min-width: 300px;
+  flex-grow: 1;
+  margin: 1rem 2rem;
+  text-align: center;
+
+  label,
+  select {
+    margin-right: 1rem;
+  }
+}

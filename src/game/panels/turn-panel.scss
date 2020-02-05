@@ -1,0 +1,31 @@
+.turn-panel {
+  text-align: center;
+
+  h2 {
+
+    span {
+      text-transform: capitalize;
+    }
+  }
+
+  .values {
+    display: flex;
+    align-items: space-between;
+
+    span {
+      flex: 1 0 0;
+      font-weight: bold;
+      font-size: 1.5rem;
+
+      &:first-of-type {
+        text-align: right;
+        padding-right: 1.5rem;
+      }
+
+      &:last-of-type {
+        text-align: left;
+        padding-left: 2rem;
+      }
+    }
+  }
+}

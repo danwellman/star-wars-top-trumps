@@ -1,0 +1,13 @@
+.player {
+
+  .hand {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  h1 {
+    text-transform: capitalize;
+  }
+}
